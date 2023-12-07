@@ -1,8 +1,8 @@
 import {useEffect} from "react"
-import { useRouter } from "next/router";
-import LoginForm from "@/app/components/LoginForm";
+import {useRouter} from "next/router";
+import CreateUserForm from "@/app/components/CreateUserForm";
 
-export default function CreateUser(createUser, isLoggedIn) {
+export default function CreateUser({createUser, isLoggedIn}) {
     // if user is logged in, forward them to the profile page 
     const router = useRouter();
     useEffect(() => {
@@ -12,7 +12,7 @@ export default function CreateUser(createUser, isLoggedIn) {
     return (
         <main>
             <h1>Create User</h1>
-            <CreateUser createUser={createUser} />
+            <CreateUserForm createUser={createUser} />
         </main>
     );
 };

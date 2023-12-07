@@ -4,7 +4,7 @@ const firebaseConfig = {
     projectId: "exercise-six-fall-2023",
     storageBucket: "exercise-six-fall-2023.appspot.com",
     messagingSenderId: "457559603656",
-    appId: "1:457559603656:web:69b0b363112fb752c0a8fd"
+    appId: "1:457559603656:web:69b0b363112fb752c0a8fd",
   };
 
 export default firebaseConfig;

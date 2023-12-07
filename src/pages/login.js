@@ -1,5 +1,5 @@
 import {useEffect} from "react"
-import { useRouter } from "next/router";
+import {useRouter} from "next/router";
 import LoginForm from "@/app/components/LoginForm";
 
 export default function Login({isLoggedIn, loginUser}) {

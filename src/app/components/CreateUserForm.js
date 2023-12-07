@@ -4,7 +4,7 @@ const CreateUserForm = ({createUser}) => {
     return (
         <div>
             <h2>Create User Form</h2>
-            <form className={styles.Form} onSumbit={(e) => createUser(e)}>
+            <form className={styles.Form} onSubmit={(e) => createUser(e)}>
                 <label htmlFor="name">Name</label>
                 <input type="text" name="name"/>
 
@@ -12,7 +12,7 @@ const CreateUserForm = ({createUser}) => {
                 <input type="email" name="email"/>
 
                 <label htmlFor="pass">Password</label>
-                <input type="password" name="pass"/>
+                <input type="password" name="password"/>
 
                 <button type="submit">Create User</button>
             </form>
